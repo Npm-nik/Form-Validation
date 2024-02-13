@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Registration form</h2>
+        <form action="" onsubmit=" return validateForm()">
+
+            <div class="name">
+                <input type="text" id="username" placeholder="Enter Username">
+                <div class="error-div">
+                    <p id="userError" class="error"></p>
+                </div>
+            </div>
+            <!-- <p id="usererror" class="error">Username Empty</p> -->
+
+            <div class="name">
+                <input type="password" accept="" id="password" placeholder="Enter Password">
+                <div class="error-div">
+                    <p id="passError" class="error"></p>
+                </div>
+            </div>
+            <!-- <p id="passwordError" class="error">Password Error</p> -->
+            <div class="name" id="submitinp">
+                <input type="submit" id="submit">
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
